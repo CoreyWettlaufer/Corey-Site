@@ -1,0 +1,32 @@
+/* This stylesheet is for any custom classes you create in your child theme. See below for examples */
+
+/* Text colors */
+.primaryText {
+    color: $primary;
+}
+
+.secondary {
+    color: $secondary;
+}
+
+.tertiaryText {
+    color: $tertiary;
+}
+
+
+/* Background Colors */
+.primaryBg {
+    background: $primary;
+}
+
+.secondaryBg {
+    background: $secondary;
+}
+
+.secondaryDarkBg {
+    background: $tertiary;
+}
+
+.tertiaryBg {
+    background: $tertiary;
+}

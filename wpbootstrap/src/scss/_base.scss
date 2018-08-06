@@ -1,0 +1,361 @@
+/*
+***
+**** This stylesheet is for global html and body styles. Also has custom classes you can use on any element to use predefined styles.
+***
+*/
+
+html, body {
+   // Font size set at 10 px allows for easy use of rem which is a multiple of 10. For example 2rem would be equal to 20px.
+   font-size: 10px;
+   line-height: 1.5;
+   color: #000;
+   margin: 0;
+   padding: 0;
+}
+
+* {
+    font-size: 2rem;
+}
+
+// Row's default top and bottom padding will be 6rem == 60px.
+.row {
+   padding: 6rem 0;
+}
+
+/*******************************************
+*********** TEXT HELPER CLASSES ************
+*******************************************/
+
+/* Text position classes */
+.textCenter {
+    text-align: center;
+}
+
+.textLeft {
+    text-align: left;
+}
+
+.textRight {
+    text-align: right;
+}
+/* End text position classes */
+
+
+/* Text case classes */
+.LowerCase {
+    text-transform: lowercase;
+}
+
+.Capitalize {
+    text-transform: capitalize;
+}
+
+.UpperCase {
+    text-transform: uppercase;
+}
+/* End text case classes */
+
+
+/* Text weight classes */
+.fontWeightNormal {
+    font-weight: normal;
+}
+
+.fontWeightBold {
+    font-weight: bold;
+}
+/* End text weight classes */
+
+
+/* Text size classes */
+.font14 {
+    font-size: 1.4rem;
+}
+
+.font16 {
+    font-size: 1.6rem;
+}
+
+.font18 {
+    font-size: 1.8rem;
+}
+
+.font20 {
+    font-size: 2rem;
+}
+
+.font22 {
+    font-size: 2.2rem;
+}
+
+.font24 {
+    font-size: 2.4rem;
+}
+
+.font26 {
+    font-size: 2.6rem;
+}
+
+.font28 {
+    font-size: 2.8rem;
+}
+
+.font30 {
+    font-size: 3rem;
+}
+/* End text size classes */
+/***********************************************
+*********** END TEXT HELPER CLASSES ************
+***********************************************/
+
+
+
+/***********************************************
+*********** BOX SHADOW HELPER CLASSES ************
+***********************************************/
+.boxShadow {
+   /* bottom and right side only */
+   box-shadow: 8px 8px 10px -5px #5A5A5A;
+}
+.boxShadowTop {
+   box-shadow: 0 -8px 16px -6px #5A5A5A;
+}
+.boxShadowBottom {
+   box-shadow: 0 8px 16px -6px #5A5A5A;
+}
+.boxShadowTopBottom {
+   box-shadow: 0 8px 16px -6px #5A5A5A, 0 -8px 16px -6px #5A5A5A;
+}
+.boxShadowFull {
+   box-shadow: 0 0px 16px 0px #5A5A5A;
+}
+/***********************************************
+*********** END BOX SHADOW HELPER CLASSES ************
+***********************************************/
+
+
+
+
+/***********************************************
+*********** PADDING HELPER CLASSES ************
+***********************************************/
+
+// Top and bottom padding classes
+.padding0 {
+   padding: 0;
+}
+.padding10 {
+   padding: 1rem 0;
+}
+.padding20 {
+   padding: 2rem 0;
+}
+.padding30 {
+   padding: 3rem 0;
+}
+.padding40 {
+   padding: 4rem 0;
+}
+.padding50 {
+   padding: 5rem 0;
+}
+.padding60 {
+   padding: 6rem 0;
+}
+.padding70 {
+   padding: 7rem 0;
+}
+.padding80 {
+   padding: 8rem 0;
+}
+.padding90 {
+   padding: 9rem 0;
+}
+.padding100 {
+   padding: 10rem 0;
+}
+
+// Top padding classes
+.paddingT0 {
+   padding-top: 0;
+}
+.paddingT10 {
+   padding-top: 1rem 0;
+}
+.paddingT20 {
+   padding-top: 2rem 0;
+}
+.paddingT30 {
+   padding-top: 3rem 0;
+}
+.paddingT40 {
+   padding-top: 4rem 0;
+}
+.paddingT50 {
+   padding-top: 5rem 0;
+}
+.paddingT60 {
+   padding-top: 6rem 0;
+}
+.paddingT70 {
+   padding-top: 7rem 0;
+}
+.paddingT80 {
+   padding-top: 8rem 0;
+}
+.paddingT90 {
+   padding-top: 9rem 0;
+}
+.paddingT100 {
+   padding-top: 10rem 0;
+}
+
+// Bottom padding classes
+.paddingB0 {
+   padding-top: 0;
+}
+.paddingB10 {
+   padding-top: 1rem 0;
+}
+.paddingB20 {
+   padding-top: 2rem 0;
+}
+.paddingB30 {
+   padding-top: 3rem 0;
+}
+.paddingB40 {
+   padding-top: 4rem 0;
+}
+.paddingB50 {
+   padding-top: 5rem 0;
+}
+.paddingB60 {
+   padding-top: 6rem 0;
+}
+.paddingB70 {
+   padding-top: 7rem 0;
+}
+.paddingB80 {
+   padding-top: 8rem 0;
+}
+.paddingB90 {
+   padding-top: 9rem 0;
+}
+.paddingB100 {
+   padding-top: 10rem 0;
+}
+/***********************************************
+*********** END PADDING HELPER CLASSES ************
+***********************************************/
+
+
+/***********************************************
+*********** MARGIN HELPER CLASSES ************
+***********************************************/
+// Top and bottom margin classes
+.margin0 {
+   margin: 0;
+}
+.margin10 {
+   margin: 1rem 0;
+}
+.margin20 {
+   margin: 2rem 0;
+}
+.margin30 {
+   margin: 3rem 0;
+}
+.margin40 {
+   margin: 4rem 0;
+}
+.margin50 {
+   margin: 5rem 0;
+}
+.margin60 {
+   margin: 6rem 0;
+}
+.margin70 {
+   margin: 7rem 0;
+}
+.margin80 {
+   margin: 8rem 0;
+}
+.margin90 {
+   margin: 9rem 0;
+}
+.margin100 {
+   margin: 10rem 0;
+}
+
+// Top margin classes
+.marginT0 {
+   margin-top: 0;
+}
+.marginT10 {
+   margin-top: 1rem 0;
+}
+.marginT20 {
+   margin-top: 2rem 0;
+}
+.marginT30 {
+   margin-top: 3rem 0;
+}
+.marginT40 {
+   margin-top: 4rem 0;
+}
+.marginT50 {
+   margin-top: 5rem 0;
+}
+.marginT60 {
+   margin-top: 6rem 0;
+}
+.marginT70 {
+   margin-top: 7rem 0;
+}
+.marginT80 {
+   margin-top: 8rem 0;
+}
+.marginT90 {
+   margin-top: 9rem 0;
+}
+.marginT100 {
+   margin-top: 10rem 0;
+}
+
+// Bottom margin classes
+.marginB0 {
+   margin-top: 0;
+}
+.marginB10 {
+   margin-top: 1rem 0;
+}
+.marginB20 {
+   margin-top: 2rem 0;
+}
+.marginB30 {
+   margin-top: 3rem 0;
+}
+.marginB40 {
+   margin-top: 4rem 0;
+}
+.marginB50 {
+   margin-top: 5rem 0;
+}
+.marginB60 {
+   margin-top: 6rem 0;
+}
+.marginB70 {
+   margin-top: 7rem 0;
+}
+.marginB80 {
+   margin-top: 8rem 0;
+}
+.marginB90 {
+   margin-top: 9rem 0;
+}
+.marginB100 {
+   margin-top: 10rem 0;
+}
+/***********************************************
+*********** END MARGIN HELPER CLASSES ************
+***********************************************/
