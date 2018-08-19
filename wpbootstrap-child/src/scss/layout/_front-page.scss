@@ -1,1 +1,20 @@
 /* This stylesheet should be used for all styles related to home page */
+.home {
+    .featuredLinks {
+        .col {
+            .card {
+                border: none;
+            }
+
+            &:hover {
+                animation-name: pulse;
+                animation-duration: 400ms;
+            }
+        }
+
+        h2 {
+            background: $grey;
+            padding: 1.5rem;
+        }
+    }
+}

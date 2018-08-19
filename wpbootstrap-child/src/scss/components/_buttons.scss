@@ -2,6 +2,7 @@
 
 button, .button {
     /* Styles for all buttons here */
+    font-family: $headingFont;
 
     &:hover {
         /* Default hover styles for all buttons */
@@ -10,6 +11,7 @@ button, .button {
     &.primaryButton {
         /* Styles for primary buttons here */
         background: $primary;
+        color: #FFF;
 
         &:hover {
             /* Hover styles for primary buttons */
